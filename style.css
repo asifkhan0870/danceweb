@@ -1,0 +1,197 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+
+    background-image: url('/GymWeb/bgimg.jpg');
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+
+}
+
+ h3{
+      
+    /* background-color: rgb(238, 3, 3); */
+    color: red;
+
+    font-size: 36px;
+
+}
+
+.left {
+
+    /* border: 2px solid rgb(68, 0, 255); */
+    position: absolute;
+    left: 24px;
+    top: 24px;
+}
+
+.left div {
+
+    text-align: center;
+    font-size: 14px;
+    color: #e4e4ef;
+}
+
+.left img {
+
+    height: 64px;
+    width: 65px;
+    border-radius: 12px;
+}
+
+.mid {
+    /* border: 2px solid blue; */
+    display: block;
+    margin: 26px auto;
+    width: 33%;
+    top: 23px;
+}
+
+.right {
+    position: absolute;
+    /* display: inline-block; */
+    /* border: 2px solid yellow; */
+    right: 34px;
+    top: 14px;
+}
+
+.btn {
+    margin: 2px 8px;
+    background-color: rgb(204, 155, 155);
+    padding: 1px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn:hover {
+
+    background-color: #a5e756;
+}
+
+.navbar li {
+
+    display: inline-block;
+
+}
+
+.navbar li a {
+    color: white;
+    margin: 12px 12px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+
+
+    color: yellow;
+    text-decoration: underline;
+
+
+}
+
+.container {
+
+
+    /* border: 2px solid yellow; */
+    margin: 120px 29px;
+    padding: 19px 25px;
+    border-radius: 12px;
+    width: 45%;
+
+}
+
+.container p{
+      
+    background-color: black;
+    color: yellow;
+    font-size: 26px;
+    align-items: center;
+    justify-content: center;
+    margin: 2px 56px;
+    padding: 2px 55px;
+    width: 45%;
+    border-radius: 12px;
+}
+
+.form p {
+  font-size: 20px;
+  color: rgb(69, 236, 92);
+}
+
+
+
+
+.form-group{
+       
+    margin: 12px 12px;
+    /* width: 53%; */
+}
+
+.form-group input{
+    width: 53%;
+    border: 2px solid cyan;
+    border-radius: 8px;
+    text-align: center;
+     padding: 2px 66px;
+}
+
+select{
+      
+    width: 77%;
+    border: 2px solid rgb(245, 225, 225);
+    border-radius: 10px;
+    
+}
+
+.form-group textarea{
+       
+    color: blue;
+    border-radius: 5px;
+}
+
+
+
+.reset {
+
+    background-color: rgb(233, 15, 15);
+    color: yellow;
+    /* border: 2px solid rgb(238, 198, 198); */
+    border-radius: 12px;
+    /* margin: 0px 36px; */
+    font-size: 17px;
+    padding: 3px 30px;
+
+}
+
+
+.reset:hover {
+
+    background-color: ghostwhite;
+
+}
+
+.submit {
+    
+    background-color:green;
+    color: rgb(208, 221, 208);
+    border: 2px solid red;
+    border-radius: 12px;
+    /* margin: 0px 36px; */
+    font-size: 17px;
+    padding: 3px 30px;
+
+}
+
+.submit:hover{
+      
+    background-color: ghostwhite;
+}
